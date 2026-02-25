@@ -1,0 +1,117 @@
+/* --- Global Styles & Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #EDEFEE;
+    color: #333;
+}
+
+/* --- THE LOGO TAMER --- */
+.logo {
+    display: block;
+    width: 200px; /* This forces the giant image to be small */
+    height: auto;
+    margin: 20px auto;
+}
+
+/* --- Navigation (Flexbox) --- */
+nav {
+    background-color: #495E57; /* Little Lemon Green */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #F4CE14; /* Little Lemon Yellow */
+    color: #495E57;
+}
+
+/* --- Hero Banner --- */
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                      url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #F4CE14;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    background-color: #F4CE14;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* --- Three Column Grid --- */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 30px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.col {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.col img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Keeps images from looking stretched */
+    border-radius: 8px;
+}
+
+/* --- Footer (Flexbox) --- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+    background-color: #333;
+    color: white;
+}
+
+.footer-logo {
+    width: 100px; /* Small version for footer */
+    height: auto;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
