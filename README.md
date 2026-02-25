@@ -3,7 +3,7 @@
 A modern, responsive home page developed for the Little Lemon Mediterranean restaurant. This project was built as part of the Meta Front-End Developer Professional Certificate to demonstrate proficiency in HTML5 semantics and CSS layout techniques.
 
 ## 🚀 Live Demo
-[View the Live Site](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/)
+[View the Live Site](https://RachBlue.github.io/little-lemon-meta-class/)
 
 ## ✨ Key Features
 * **Semantic HTML5:** Built using `<header>`, `<nav>`, `<main>`, `<article>`, and `<footer>` for accessibility and SEO.
@@ -16,9 +16,6 @@ A modern, responsive home page developed for the Little Lemon Mediterranean rest
 * **HTML5**
 * **CSS3** (Custom variables, Grid, and Flexbox)
 * **Google Fonts** (Karla and Markazi Text)
-
-## 📸 Screenshots
-![Desktop View](https://via.placeholder.com/800x400?text=Little+Lemon+Desktop+Preview)
 
 ## 📝 Project Requirements Fulfilled
 - [x] Semantic structure with appropriate tags.
